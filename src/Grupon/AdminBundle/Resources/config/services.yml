@@ -1,0 +1,4 @@
+services:
+#    grupon_admin.example:
+#        class: Grupon\AdminBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

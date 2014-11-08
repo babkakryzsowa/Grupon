@@ -1,0 +1,10 @@
+page:
+    pattern:  /
+    defaults: { _controller: "GruponAdminBundle:Page:index" }
+
+page_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "GruponAdminBundle:Page:show" }
+
+
+

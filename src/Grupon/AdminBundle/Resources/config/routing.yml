@@ -1,0 +1,6 @@
+grupon_admin:
+    path:     /
+    defaults: { _controller: GruponAdminBundle:Default:admin }
+grupon_admin_page:
+    resource: "@GruponAdminBundle/Resources/config/routing/page.yml"
+    prefix:   /page 

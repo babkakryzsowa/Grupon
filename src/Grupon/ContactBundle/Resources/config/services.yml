@@ -1,0 +1,7 @@
+parameters:
+#    grupon_contact.example.class: Grupon\ContactBundle\Example
+
+services:
+#    grupon_contact.example:
+#        class: %grupon_contact.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

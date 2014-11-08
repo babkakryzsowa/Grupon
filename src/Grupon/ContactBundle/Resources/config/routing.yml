@@ -1,0 +1,3 @@
+grupon_contact_homepage:
+    path:     /contact/
+    defaults: { _controller: GruponContactBundle:Default:contact }
