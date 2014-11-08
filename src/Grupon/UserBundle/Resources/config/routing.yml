@@ -1,3 +1,6 @@
-grupon_user_homepage:
+grupon_user:
     path:     /
     defaults: { _controller: GruponUserBundle:Default:index }
+grupon_admin_user:
+    resource: "@GruponUserBundle/Resources/config/routing/user.yml"
+    prefix:   /admin/user

@@ -1,3 +1,10 @@
+grupon_contact:
+    resource: "@GruponContactBundle/Resources/config/routing.yml"
+    prefix:   /
+
+grupon_admin:
+    resource: "@GruponAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
 grupon_user:
     resource: "@GruponUserBundle/Resources/config/routing.yml"
     prefix:   /
