@@ -22,7 +22,9 @@ class AppKernel extends Kernel
         	new Lexik\Bundle\FormFilterBundle\LexikFormFilterBundle(),
         	new JordiLlonch\Bundle\CrudGeneratorBundle\JordiLlonchCrudGeneratorBundle(),
             new Grupon\ContactBundle\GruponContactBundle(),
-        );
+        	new FOS\MessageBundle\FOSMessageBundle(),
+            new Grupon\MessageBundle\GruponMessageBundle(),
+                );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();

@@ -1,3 +1,7 @@
+grupon_message:
+    resource: "@GruponMessageBundle/Resources/config/routing.yml"
+    prefix:   /
+
 grupon_contact:
     resource: "@GruponContactBundle/Resources/config/routing.yml"
     prefix:   /
@@ -10,3 +14,7 @@ grupon_user:
     prefix:   /
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+fos_message:
+    resource: "@FOSMessageBundle/Resources/config/routing.xml"
+    prefix: /message

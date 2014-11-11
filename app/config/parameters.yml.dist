@@ -10,9 +10,9 @@ parameters:
     # database_path: "%kernel.root_dir%/data.db3"
 
     mailer_transport:  smtp
-    mailer_host:       127.0.0.1
-    mailer_user:       ~
-    mailer_password:   ~
+    mailer_host:       217.74.65.64
+    mailer_user:       kasia55424@poczta.fm
+    mailer_password:   qwerty00
 
     locale:            en
 
