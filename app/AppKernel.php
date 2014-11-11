@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Grupon\ContactBundle\GruponContactBundle(),
         	new FOS\MessageBundle\FOSMessageBundle(),
             new Grupon\MessageBundle\GruponMessageBundle(),
+        	new Knp\Bundle\MenuBundle\KnpMenuBundle(),
                 );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
