@@ -1,3 +1,7 @@
+grupon_menu:
+    resource: "@GruponMenuBundle/Resources/config/routing.yml"
+    prefix:   /
+
 grupon_message:
     resource: "@GruponMessageBundle/Resources/config/routing.yml"
     prefix:   /

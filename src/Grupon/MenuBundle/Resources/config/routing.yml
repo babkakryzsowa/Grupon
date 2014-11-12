@@ -1,0 +1,7 @@
+grupon_index:
+    path:     /menu
+    defaults: { _controller: GruponMenuBundle:Default:index }
+grupon_test:
+    path:     /test
+    defaults: { _controller: GruponMenuBundle:Default:test }
+    
